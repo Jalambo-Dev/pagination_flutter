@@ -18,5 +18,34 @@ A simple project that demonstrates how to implement **pagination** using `Dio` f
    cd flutter-pagination-cubit
    ```
 
+2. **Install Dependencies**:
+   ```
+   flutter pub get
+   ```
+3. **Run the App**:
+   ```
+   flutter run
+   ```
+## 📂 Project Structure
+   ```
+   lib/
+   ├── cubit/              # Business logic (Cubit and states)
+   ├── data/               # Data management
+   │   ├── models/         # Data models (Post)
+   │   ├── repository/     # Repository for data fetching
+   │   └── service/        # API service using Dio
+   └── ui/
+   ```
+
+## 🛠 How It Works
+   - API: Fetches posts from the JSONPlaceholder API.
+   - Pagination: Loads more posts when the user scrolls to the bottom.
+   - Cubit: Manages the loading, loaded, and error states for the posts.
+
+     
+## 📸 Screenshots .GIF
+![pagination_screen_record copy](https://github.com/user-attachments/assets/79a52081-b8b2-400c-b510-aee154548a45)
+
+
    
    
